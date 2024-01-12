@@ -1,0 +1,19 @@
+inatall usb samsung driver
+installl android studio
+install node 
+install java jdk
+ad java to JAVA_HOME AND ANDROID_HOME to env
+config appium to path java and android/sdk
+
+
+
+        platformName='Android',
+        automationName='uiautomator2',
+        deviceName='Android',
+        appPackage='com.android.settings',
+        appActivity='.Settings',
+        # language='en',
+        # locale='US'
+        udid check adb deviceName
+        check appPackage
+        check appActivity adb shell dumpsys window windows  find mObscuringWindow
